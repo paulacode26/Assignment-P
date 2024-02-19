@@ -1,0 +1,44 @@
+<!-- 
+*@name: Assignement1
+* @Course Code: SODV1201
+* @class: Software Development Diploma program.
+* @author: Paula Gomez Perez
+*/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styles.css">
+    <title>Grade Converter</title>
+</head>
+<body>
+    <header class="header">
+        <ul class="links">
+        <li class="link-item"><a class="link" href="../index.html">Profile</a></li>
+        <li class="link-item"><a class="link" href="../Mark/index.html">Grade Converter</a></li>
+        <li class="link-item"><a class="link" href="../Staff/index.html">Staff</a></li>
+        <li class="link-item"><a class="link" href="../Weather/index.html">Weather</a></li>
+        </ul>
+    </header>
+    <div class="container">
+        <div>
+            <h1 class="title">Mark to Grade Converter</h1> <br><br>
+        </div>
+        <div class="subcontainer">
+            <label for="markInput" class="labeltitle">Enter a Mark</label>
+            <input type="text" id="markInput" class="mark-input">
+            <button class="button">Convert</button>
+        </div>
+        <p class="alert"></p>
+        <p class="graderesult"></p>
+    </div>
+    <footer class="footer">
+        <small class="rights">Paula Gomez 2024. © All Rights Reserved. <span class="currentDate"></span></small>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

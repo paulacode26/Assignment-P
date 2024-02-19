@@ -1,0 +1,136 @@
+/*
+*@name: Assignement1
+* @Course Code: SODV1201
+* @class: Software Development Diploma program.
+* @author: Paula Gomez Perez
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #02594e;
+    height: 100vh;
+    width: 100vw;
+    min-height: 100vh;
+    padding-top: 60px;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 55px;
+    padding: 0 13px;
+    background-color: rgba(109, 149, 155, 0.6);
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+}
+
+.links{
+    list-style: none;
+    display: flex; 
+    align-self: center;
+}
+
+.link{
+    text-decoration: none;
+    color: #02594e;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0 13px;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: #02594e;
+    color: rgb(249, 216, 216);
+    border-radius: 10%;
+}
+
+button{ 
+    background-color: initial;
+    color: inherit;
+    font: inherit;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    font-size: 16px;
+    color: #02594e;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius:5000px;
+    background-color: rgba(109, 149, 155, 0.6);
+    cursor: pointer;
+}
+
+.title{
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: aliceblue;
+ 
+}
+
+.subcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    column-gap: 20px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #fff;
+    font-size: 16px;
+    color: #02594e;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius:5000px;
+    background-color: rgba(109, 149, 155, 0.6);
+    margin-top: 20px;
+}
+.options{
+    margin-left: 20px;
+}
+.message{
+    padding: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.footer{
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color:#02594e;
+    padding-bottom: 1px;
+    column-gap: 50px;
+    padding: 25px;
+    height: 50px;
+    background-image: linear-gradient(to right,#dfe6c3, #6d959b99);     /*#F2E3DB*/
+    font-size: 18px;
+    font-weight: bold;
+}
